@@ -1,0 +1,8 @@
+{
+  "path": "partial_templates/dart/shelf/logging_middleware.dart",
+  "filename": "logging_middleware.dart",
+  "description": "",
+  "tags": [],
+  "language": "dart",
+  "framework": "shelf"
+}

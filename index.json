@@ -1,0 +1,90 @@
+[
+  {
+    "path": "partial_templates/go/core/hello_world.go",
+    "filename": "hello_world.go",
+    "description": "",
+    "tags": [],
+    "language": "go",
+    "framework": "core"
+  },
+  {
+    "path": "partial_templates/go/net-http/logging_middleware.go",
+    "filename": "logging_middleware.go",
+    "description": "",
+    "tags": [],
+    "language": "go",
+    "framework": "net-http"
+  },
+  {
+    "path": "partial_templates/go/gin/logging_middleware.go",
+    "filename": "logging_middleware.go",
+    "description": "",
+    "tags": [],
+    "language": "go",
+    "framework": "gin"
+  },
+  {
+    "path": "partial_templates/python/core/hello_word.py",
+    "filename": "hello_word.py",
+    "description": "",
+    "tags": [],
+    "language": "python",
+    "framework": "core"
+  },
+  {
+    "path": "partial_templates/python/fastapi/response_schemas.py",
+    "filename": "response_schemas.py",
+    "description": "",
+    "tags": [],
+    "language": "python",
+    "framework": "fastapi"
+  },
+  {
+    "path": "partial_templates/dart/core/hello_word.dart",
+    "filename": "hello_word.dart",
+    "description": "",
+    "tags": [],
+    "language": "dart",
+    "framework": "core"
+  },
+  {
+    "path": "partial_templates/dart/flutter/dio_client.dart",
+    "filename": "dio_client.dart",
+    "description": "",
+    "tags": [],
+    "language": "dart",
+    "framework": "flutter"
+  },
+  {
+    "path": "partial_templates/dart/flutter/drift_database_service.dart",
+    "filename": "drift_database_service.dart",
+    "description": "",
+    "tags": [],
+    "language": "dart",
+    "framework": "flutter"
+  },
+  {
+    "path": "partial_templates/dart/flutter/push_notification_service.dart",
+    "filename": "push_notification_service.dart",
+    "description": "",
+    "tags": [],
+    "language": "dart",
+    "framework": "flutter"
+  },
+  {
+    "path": "partial_templates/dart/flutter/sqlite3_database_service",
+    "filename": "sqlite3_database_service",
+    "description": "",
+    "tags": [],
+    "language": "dart",
+    "framework": "flutter"
+  },
+  {
+    "path": "partial_templates/dart/shelf/logging_middleware.dart",
+    "filename": "logging_middleware.dart",
+    "description": "",
+    "tags": [],
+    "language": "dart",
+    "framework": "shelf"
+  }
+]

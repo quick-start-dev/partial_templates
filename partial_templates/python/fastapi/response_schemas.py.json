@@ -1,0 +1,8 @@
+{
+  "path": "partial_templates/python/fastapi/response_schemas.py",
+  "filename": "response_schemas.py",
+  "description": "",
+  "tags": [],
+  "language": "python",
+  "framework": "fastapi"
+}

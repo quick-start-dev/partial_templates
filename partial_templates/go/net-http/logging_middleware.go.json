@@ -1,0 +1,8 @@
+{
+  "path": "partial_templates/go/net-http/logging_middleware.go",
+  "filename": "logging_middleware.go",
+  "description": "",
+  "tags": [],
+  "language": "go",
+  "framework": "net-http"
+}
