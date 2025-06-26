@@ -48,6 +48,19 @@
     "framework": "core"
   },
   {
+    "path": "partial_templates/dart/flutter/json_serializable.dart",
+    "filename": "json_serializable.dart",
+    "description": "A template for converting openAPI components into json_serializable dart model.",
+    "tags": [
+      "model",
+      "json_serializable",
+      "flutter",
+      "openAPI"
+    ],
+    "language": "dart",
+    "framework": "flutter"
+  },
+  {
     "path": "partial_templates/dart/flutter/dio_client.dart",
     "filename": "dio_client.dart",
     "description": "",
