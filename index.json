@@ -48,6 +48,19 @@
     "framework": "core"
   },
   {
+    "path": "partial_templates/dart/core/pure_json_serializable.dart",
+    "filename": "pure_json_serializable.dart",
+    "description": "A qs template that convert openAPI components into json to dart.",
+    "tags": [
+      "qs",
+      "json_serializable",
+      "dart",
+      "openAPI"
+    ],
+    "language": "dart",
+    "framework": "core"
+  },
+  {
     "path": "partial_templates/dart/flutter/json_serializable.dart",
     "filename": "json_serializable.dart",
     "description": "A template for converting openAPI components into json_serializable dart model.",
