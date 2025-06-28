@@ -1,0 +1,12 @@
+{
+  "path": "partial_templates/dart/core/enum_from_openapi_compoents.dart",
+  "filename": "enum_from_openapi_compoents.dart",
+  "description": "A template to convert from openAPI components to dart enum.",
+  "tags": [
+    "enum",
+    "dart",
+    "openAPI"
+  ],
+  "language": "dart",
+  "framework": "core"
+}

@@ -1,0 +1,14 @@
+{
+  "path": "partial_templates/dart/core/pure_json_serializable_for_pydantic_fastapi.dart",
+  "filename": "pure_json_serializable_for_pydantic_fastapi.dart",
+  "description": "A template for convert openAPI components generated from  fastapi pydantic to pure dart model.",
+  "tags": [
+    "openAPI",
+    "fastapi",
+    "pydantic",
+    "model",
+    "json"
+  ],
+  "language": "dart",
+  "framework": "core"
+}
