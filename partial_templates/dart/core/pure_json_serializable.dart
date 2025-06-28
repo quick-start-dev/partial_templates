@@ -4,31 +4,33 @@
 {{#range components.schemas.parseSchemas() }}
 
 class {{.__key}}{
-  
-  {{#range .__value.properties}}
-   {{.__value.required.ifTrueReturn('final')}} {{.__value.openAPIType()}}{{.__value.required.ifNotTrueReturn('?')}} {{.__key.toCamelCase()}}; {{#if .__value.containsKey('enum')}} // {{.__value.enum}} {{%}}
-  {{%}} 
-     
-    
-
+    {{! constructor !}}
   {{.__key}}({
     {{#range .__value.properties}}
         {{.__value.required.ifTrueReturn('required')}}  this.{{.__key}},
       {{%}}
-       
-
   });
+  {{! end constructor !}}
 
   {{! start fromJson !}}
 
   factory {{.__key}}.fromJson(Map<String, dynamic> json) {
     return {{.__key}}(
       {{#range .__value.properties}}
-         json['{{.__key}}'] as {{.__value.openAPIType()}}{{.__value.required.ifNotTrueReturn('?')}},
+        {{.__key}}: json['{{.__key}}'] as {{.__value.openAPIType()}}{{.__value.required.ifNotTrueReturn('?')}},
       {{%}}
     );
   }
   {{! end fromJson !}}
+
+  
+
+  {{#range .__value.properties}}
+   {{.__value.required.ifTrueReturn('final')}} {{.__value.openAPIType()}}{{.__value.required.ifNotTrueReturn('?')}} {{.__key.toCamelCase()}}; {{#if .__value.containsKey('enum')}} // {{.__value.enum}} {{%}}
+  {{%}} 
+     
+    
+
 
 
 
@@ -46,7 +48,7 @@ class {{.__key}}{
   {{! start toString !}}
   @override
   String toString() {
-    return {{.__key}}.toJson().toString();
+    return toJson().toString();
   }
   {{! end toString !}}
 
